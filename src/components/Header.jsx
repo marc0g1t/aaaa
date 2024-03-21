@@ -1,10 +1,8 @@
 import React from "react";
 import { IoIosSunny } from "react-icons/io";
-import { CgDetailsMore } from "react-icons/cg";
-
 export const Header = () => {
   return (
-    <div className="max-w-screen-xl border mx-auto py-[16px]">
+    <div className="max-w-screen-xl border mx-auto py-[16px] px-[32px]">
       <div className="flex items-center justify-between">
         <div className="text-[28px] font-bold">{"<SS/>"}</div>
         <div className="sm:flex gap-[24px] items-center hidden ">
