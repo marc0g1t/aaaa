@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 export const Second = () => {
   return (
-    <div className=" max-w-screen-xl mx-auto py-[96px] px-[32px]">
+    <div className=" max-w-screen-xl mx-auto py-[96px] px-[32px] ">
       <div className="px-[20px] py-[4px] w-[115px] h-[28px] rounded-xl bg-gray-200 mx-auto flex items-center text-gray-600">
         About me
       </div>
       <div className="pt-[48px] flex ">
-        <div className="border w-[2240px] h-[520px] relative">
+        <div className=" w-[2240px] h-[520px] relative">
           <Image
             src="/glasses.png"
             width={400}

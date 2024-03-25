@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export const First = () => {
   return (
-    <div className="max-w-screen-xl border mx-auto px-[32px] py-[96px] flex">
+    <div className="max-w-screen-xl mx-auto px-[32px] py-[96px] flex">
       <div className="pr-[200px] flex flex-col gap-[48px]">
         <div>
           <div className="text-[50px] text-gray-900 font-bold">
